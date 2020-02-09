@@ -1,0 +1,38 @@
+#header {
+  text-align: center;
+}
+
+#container {
+  position: fixed;
+  left: 50%;
+  margin-left: -115px;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-gap: 10px;
+}
+
+#zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#screen {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+html {
+  background-color: darkgray;
+}
+
+button {
+  border-radius: 0;
+  border-style: solid;
+  border-color: black;
+}
+
+input {
+  border: black;
+  border-radius: 0;
+  border-style: solid;
+}
